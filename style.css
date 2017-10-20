@@ -1,0 +1,48 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#p1Chat {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+
+#p2Chat {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+#chatDisplay {
+    width: 30vw;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    font-size: 18px;
+    line-height: 18px;
+    margin-left: -15vw;
+}
+
+.chatBubble {
+    position: relative;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    min-height: 20px;
+}
+
+.chatBubble1 {
+    background-color: rgb(3, 169, 244);
+}
+
+.chatBubble2 {
+    background-color: rgb(145, 145, 145);
+    text-align: right;
+}
+
+.emoji {
+    width: 18px;
+}
